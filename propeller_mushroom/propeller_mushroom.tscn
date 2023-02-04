@@ -1,10 +1,9 @@
-[gd_scene load_steps=11 format=3]
+[gd_scene load_steps=11 format=3 uid="uid://bqa4hg3rhyvq4"]
 
 [ext_resource type="Script" path="res://modules/propeller/propeller_mushroom/propeller_mushroom.gd" id="1_k4deg"]
-[ext_resource type="Resource" path="res://modules/base/objects/mario/prefabs/propeller_state.tres" id="2_mj5rj"]
+[ext_resource type="Resource" path="res://modules/propeller/prefabs/mario/propeller_state.tres" id="2_mj5rj"]
 [ext_resource type="Texture2D" uid="uid://7iw3ru3rvvpt" path="res://modules/propeller/propeller_mushroom/texture.png" id="3_rvo0r"]
 [ext_resource type="Script" path="res://engine/scripts/nodes/vision/vision.gd" id="4_plq50"]
-
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_w2yun"]
 size = Vector2(32, 32)

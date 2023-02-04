@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="PlayerStateData" load_steps=5 format=3 uid="uid://bw00alrcffb6m"]
+
+[ext_resource type="SpriteFrames" uid="uid://il74ugrxfdnd" path="res://modules/propeller/prefabs/mario/propeller.tres" id="1_h1dmj"]
+[ext_resource type="Script" path="res://modules/propeller/propeller_mushroom/propeller_action.gd" id="2_m4cpm"]
+[ext_resource type="Resource" uid="uid://dkr3ph2e4aw48" path="res://modules/base/objects/mario/prefabs/big_state.tres" id="3_0j02a"]
+[ext_resource type="Script" path="res://engine/scripts/resources/player_state_data/player_state_data.gd" id="4_inisv"]
+
+[resource]
+script = ExtResource("4_inisv")
+state_name = &"propeller"
+player_prefab = ExtResource("1_h1dmj")
+player_script = ExtResource("2_m4cpm")
+player_power = 2
+powerdown_state = ExtResource("3_0j02a")
