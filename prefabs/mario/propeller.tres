@@ -1,79 +1,96 @@
-[gd_resource type="SpriteFrames" load_steps=25 format=3 uid="uid://il74ugrxfdnd"]
+[gd_resource type="SpriteFrames" load_steps=30 format=3 uid="uid://bwjys6ndv7vlc"]
 
-[ext_resource type="Texture2D" uid="uid://f0frunv781qd" path="res://modules/base/objects/mario/textures/mario/PropellerAppear.png" id="1_gilx5"]
-[ext_resource type="Texture2D" uid="uid://cwbh0t7gy8kkr" path="res://modules/base/objects/mario/textures/mario/PropellerClimb.png" id="1_q2td1"]
+[ext_resource type="Texture2D" uid="uid://f0frunv781qd" path="res://modules/propeller/prefabs/mario/PropellerAppear.png" id="1_bb7iq"]
 [ext_resource type="Texture2D" uid="uid://b1bka4okkj0bm" path="res://modules/base/objects/mario/textures/mario/Dead.png" id="2_66ukd"]
-[ext_resource type="Texture2D" uid="uid://deb03nea0cf1b" path="res://modules/base/objects/mario/textures/mario/PropellerCrouch.png" id="2_boi3a"]
-[ext_resource type="Texture2D" uid="uid://br02jbpvhplyv" path="res://modules/base/objects/mario/textures/mario/PropellerWalk.png" id="4_roxoi"]
-[ext_resource type="Texture2D" uid="uid://bn8bt6yhvip87" path="res://modules/base/objects/mario/textures/mario/PropellerJump.png" id="5_gynri"]
-[ext_resource type="Texture2D" uid="uid://dxnhvh3ncphbo" path="res://modules/base/objects/mario/textures/mario/PropellerSwim.png" id="6_32e34"]
+[ext_resource type="Texture2D" uid="uid://cwbh0t7gy8kkr" path="res://modules/propeller/prefabs/mario/PropellerClimb.png" id="2_klnj3"]
+[ext_resource type="Texture2D" uid="uid://deb03nea0cf1b" path="res://modules/propeller/prefabs/mario/PropellerCrouch.png" id="3_lpjm7"]
+[ext_resource type="Texture2D" uid="uid://br02jbpvhplyv" path="res://modules/propeller/prefabs/mario/PropellerWalk.png" id="5_dertp"]
+[ext_resource type="Texture2D" uid="uid://bn8bt6yhvip87" path="res://modules/propeller/prefabs/mario/PropellerJump.png" id="6_vnp50"]
+[ext_resource type="Texture2D" uid="uid://c1cc5w77aj5fe" path="res://modules/propeller/prefabs/mario/PropellerLaunch.png" id="7_mnt1a"]
+[ext_resource type="Texture2D" uid="uid://dxnhvh3ncphbo" path="res://modules/propeller/prefabs/mario/PropellerSwim.png" id="8_kue6w"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4kp5e"]
-atlas = ExtResource("1_gilx5")
+atlas = ExtResource("1_bb7iq")
 region = Rect2(0, 0, 34, 71)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_47sbh"]
-atlas = ExtResource("1_gilx5")
+atlas = ExtResource("1_bb7iq")
 region = Rect2(34, 0, 34, 71)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_vcwtw"]
-atlas = ExtResource("1_gilx5")
+atlas = ExtResource("1_bb7iq")
 region = Rect2(68, 0, 34, 71)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_lcd8u"]
-atlas = ExtResource("1_gilx5")
+atlas = ExtResource("1_bb7iq")
 region = Rect2(102, 0, 34, 71)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_mypnc"]
-atlas = ExtResource("1_q2td1")
+atlas = ExtResource("2_klnj3")
 region = Rect2(0, 0, 31, 60)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rk14h"]
-atlas = ExtResource("1_q2td1")
+atlas = ExtResource("2_klnj3")
 region = Rect2(31, 0, 31, 60)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_hn8d8"]
-atlas = ExtResource("4_roxoi")
+atlas = ExtResource("5_dertp")
 region = Rect2(0, 0, 33, 71)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8oopu"]
-atlas = ExtResource("4_roxoi")
+atlas = ExtResource("5_dertp")
 region = Rect2(33, 0, 33, 71)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_2gmrp"]
-atlas = ExtResource("4_roxoi")
+atlas = ExtResource("5_dertp")
 region = Rect2(66, 0, 33, 71)
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_pse0c"]
+atlas = ExtResource("7_mnt1a")
+region = Rect2(0, 0, 36, 71)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x0huk"]
+atlas = ExtResource("7_mnt1a")
+region = Rect2(36, 0, 36, 71)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_idsjs"]
+atlas = ExtResource("7_mnt1a")
+region = Rect2(72, 0, 36, 71)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rcjn7"]
+atlas = ExtResource("7_mnt1a")
+region = Rect2(108, 0, 36, 71)
+
 [sub_resource type="AtlasTexture" id="AtlasTexture_4cdp8"]
-atlas = ExtResource("6_32e34")
+atlas = ExtResource("8_kue6w")
 region = Rect2(0, 0, 41, 66)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fsxok"]
-atlas = ExtResource("6_32e34")
+atlas = ExtResource("8_kue6w")
 region = Rect2(41, 0, 41, 66)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_trmxo"]
-atlas = ExtResource("6_32e34")
+atlas = ExtResource("8_kue6w")
 region = Rect2(82, 0, 41, 66)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5cpuj"]
-atlas = ExtResource("6_32e34")
+atlas = ExtResource("8_kue6w")
 region = Rect2(123, 0, 41, 66)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ruu6j"]
-atlas = ExtResource("6_32e34")
+atlas = ExtResource("8_kue6w")
 region = Rect2(164, 0, 41, 66)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qg81b"]
-atlas = ExtResource("6_32e34")
+atlas = ExtResource("8_kue6w")
 region = Rect2(205, 0, 41, 66)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_xtpmq"]
-atlas = ExtResource("6_32e34")
+atlas = ExtResource("8_kue6w")
 region = Rect2(246, 0, 41, 66)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_x3v7d"]
-atlas = ExtResource("6_32e34")
+atlas = ExtResource("8_kue6w")
 region = Rect2(287, 0, 41, 66)
 
 [resource]
@@ -108,7 +125,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("2_boi3a")
+"texture": ExtResource("3_lpjm7")
 }],
 "loop": true,
 "name": &"crouch",
@@ -138,10 +155,27 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("5_gynri")
+"texture": ExtResource("6_vnp50")
 }],
 "loop": true,
 "name": &"jump",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pse0c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x0huk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_idsjs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rcjn7")
+}],
+"loop": true,
+"name": &"launch",
 "speed": 5.0
 }, {
 "frames": [{
