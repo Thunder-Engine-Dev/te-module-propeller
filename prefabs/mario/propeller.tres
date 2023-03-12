@@ -1,7 +1,7 @@
 [gd_resource type="SpriteFrames" load_steps=30 format=3 uid="uid://bwjys6ndv7vlc"]
 
 [ext_resource type="Texture2D" uid="uid://f0frunv781qd" path="res://modules/propeller/prefabs/mario/PropellerAppear.png" id="1_bb7iq"]
-[ext_resource type="Texture2D" uid="uid://b1bka4okkj0bm" path="res://modules/base/objects/mario/textures/mario/Dead.png" id="2_66ukd"]
+[ext_resource type="Texture2D" uid="uid://b1bka4okkj0bm" path="res://engine/objects/mario/textures/mario/Dead.png" id="2_66ukd"]
 [ext_resource type="Texture2D" uid="uid://cwbh0t7gy8kkr" path="res://modules/propeller/prefabs/mario/PropellerClimb.png" id="2_klnj3"]
 [ext_resource type="Texture2D" uid="uid://deb03nea0cf1b" path="res://modules/propeller/prefabs/mario/PropellerCrouch.png" id="3_lpjm7"]
 [ext_resource type="Texture2D" uid="uid://br02jbpvhplyv" path="res://modules/propeller/prefabs/mario/PropellerWalk.png" id="5_dertp"]
